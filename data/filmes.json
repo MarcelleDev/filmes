@@ -1,0 +1,14 @@
+[
+    {
+      "titulo": "Interestelar",
+      "genero": "Ficção Científica",
+      "ano": 2014,
+      "assistido": true
+    },
+    {
+      "titulo": "O Poderoso Chefão",
+      "genero": "Drama",
+      "ano": 1972,
+      "assistido": false
+    }
+  ]

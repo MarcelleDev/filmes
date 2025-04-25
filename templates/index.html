@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Filmes</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Meu Catálogo de Filmes</h1>
+        
+        <!-- Formulário para adicionar filme -->
+        <form id="form-filme">
+            <input type="text" id="titulo" placeholder="Título" required>
+            <input type="text" id="genero" placeholder="Gênero" required>
+            <input type="number" id="ano" placeholder="Ano" required>
+            <label>
+                <input type="checkbox" id="assistido"> Assistido
+            </label>
+            <button type="submit">Adicionar Filme</button>
+        </form>
+
+        <!-- Lista de filmes -->
+        <div id="lista-filmes"></div>
+    </div>
+
+    <script src="static/script.js"></script>
+</body>
+</html>
